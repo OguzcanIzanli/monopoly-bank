@@ -1,0 +1,58 @@
+.profile-card {
+    height: 350px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #C70000;
+    margin-top: 50px;
+    border-radius: 27px 27px 27px 27px;
+    border: 5px double #000000;
+
+    img {
+        height: 150px;
+        width: 150px;
+        background-color: #D7BAAA;
+        margin-top: 30px;
+        border-radius: 27px 27px 27px 27px;
+        border: 2px solid #000000;
+
+    }
+
+    span {
+        color: white;
+        font-size: 22px;
+        font-weight: 800;
+        margin: 5px 0;
+    }
+
+    label {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 10px;
+
+        span {
+            color:forestgreen;
+        }
+    }
+
+    input {
+        width: 75%;
+    }
+
+    div {
+        width: 78%;
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .addButton {
+            background-color: rgb(64, 203, 0);
+        }
+
+        .subButton{
+            background-color: #C70000;
+        }
+    }
+}

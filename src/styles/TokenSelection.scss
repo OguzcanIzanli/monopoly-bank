@@ -1,0 +1,41 @@
+.token-selection {
+    border: 24px double #8fbc72;
+    background: #bfdbae;
+    display: flex;
+    flex-direction: column;
+    max-width: 590px;
+    min-width: 340px;
+    align-items: center;
+    margin: auto;
+
+    h1 {
+        text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+        cursor: context-menu;
+    }
+
+    .token-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .token-image {
+            width: 100px;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 27px 27px 27px 27px;
+            transform: scale(1);
+            transition-duration: 0.5s;
+        }
+    
+        .token-image:hover {
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+        }
+        
+        .selected {
+            background-color: #8FBC72;
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+        }
+    }
+}
